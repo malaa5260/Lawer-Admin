@@ -1,0 +1,110 @@
+    .dataTables_wrapper thead {
+        background-color: #F3F5FB;
+        border: none;
+        tr {
+            box-shadow: 0px 3px 6px 2px #dbdbdb;
+            border-radius: 25px;
+            line-height: 2.5;
+        }
+        // margin-top: 20px;
+    }
+
+    .dataTables_wrapper {
+        td {
+            border: none;
+        }
+    }
+
+    table th {
+        border: none;
+        border-top: 0 !important;
+        border-bottom: 0 !important;
+        color: $main-color;
+        &:focus {
+            outline: none;
+        }
+        &:first-child {
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        &:last-child {
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+        }
+    }
+
+    .table {
+        margin-top: 1.5rem;
+    }
+
+    .dataTables_filter {
+        label {
+            width: 100%;
+            position: relative;
+            &:after {
+                content: '';
+                left: 25px;
+                top: 13px;
+                position: absolute;
+                background-image: url(../img/search.svg);
+                width: 35px;
+                background-repeat: no-repeat;
+                height: 28px;
+            }
+        }
+        input {
+            width: 100%;
+            border: 1px solid #848382;
+            background-color: #f9f9f9;
+            height: 50px !important;
+            padding-right: 20px !important;
+            border-radius: 25px;
+            font-size: 16px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    td:focus {
+        outline: none;
+    }
+
+    .nav-pills .nav-treeview .nav-link:hover {
+        color: $main-color !important;
+        background-color: transparent !important;
+    }
+
+    .nav-pills .nav-treeview .nav-link.active {
+        color: $main-color;
+        background-color: transparent;
+    }
+
+    .inner.nav-pills .nav-link {
+        border-radius: .25rem;
+        padding: 15px 70px;
+        border-radius: 12px;
+        background-color: #fff;
+        margin: 0 12px;
+        font-size: 23px;
+        box-shadow: 0px 2px 5px 2px #dcd9d9;
+        font-weight: bold;
+    }
+
+    .inner.nav-pills .nav-link:not(.active):hover {
+        color: $main-color;
+    }
+
+    .inner.nav-pills .nav-link.active {
+        color: #ffffff;
+        background-color: #CBA860;
+    }
+
+    table .btn:hover img {
+        filter: brightness(0) invert(.5);
+    }
+
+    .fc {
+        direction: ltr !important;
+        // text-align: left;
+    }

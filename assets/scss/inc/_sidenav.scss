@@ -1,0 +1,121 @@
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td.dtr-control:before,
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th.dtr-control:before {
+    content: '\f068';
+    background-color: $main-color;
+    margin-left: 5px;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: none;
+}
+
+.dtr-control {
+    cursor: pointer;
+}
+
+.collapsed .dtr-control::before {
+    content: '\f067';
+    background-color: $main-color;
+    margin-left: 5px;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+// .dataTables_filter {
+//     display: none;
+// }
+// .search-box input {
+//     // width: 300px;
+//     width: calc(100% - 45px);
+//     max-width: 100%;
+//     border: none;
+//     &:focus {
+//         border: none;
+//         box-shadow: none;
+//     }
+// }
+td .btn img {
+    min-width: 20px;
+}
+
+.custom-file-label::after {
+    left: -4px;
+    right: unset;
+    content: "\f382";
+    background-color: $main-color;
+    color: #fff;
+    border: none;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding: .375rem 1.75rem;
+    border-radius: 9px !important;
+}
+
+div.MultiFile-label {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: #EEEFF1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    .MultiFile-remove {
+        background-color: $main-color;
+        color: $second-color;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        text-align: center;
+        line-height: 10.5px;
+        font-size: 13px;
+    }
+}
+
+span.MultiFile-title {
+    width: 85px;
+    height: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 65px;
+}
+
+span.MultiFile-label {
+    position: relative;
+    &:after {
+        content: '\f1c1';
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        font-size: 60px;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        color: $main-color;
+        left: 0;
+        right: 0;
+        top: -79px;
+    }
+}

@@ -1,0 +1,303 @@
+    .pro-card .areas {
+        height: unset !important;
+    }
+        
+    .files .dataTables_filter,
+    .payments .dataTables_filter {
+        display: none !important;
+    }
+        
+    .filter_not {
+        .dataTables_filter,
+        .payments .dataTables_filter {
+            display: none !important;
+        }
+    }
+        
+    .files th {
+        width: 55px !important;
+        font-size: 14px !important;
+    }
+        
+    .file_input .form-control {
+        height: 55px !important;
+        background-color: #dee2e6;
+        width: 180px;
+    }
+        
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        appearance: none !important;
+        opacity: 0;
+        -webkit-appearance: none;
+        cursor: pointer;
+    }
+        
+    input[type="date"]::after {
+        content: '';
+        background-image: url(../img/calendar-1.svg);
+        right: 21px;
+        top: 12px;
+        position: absolute;
+        background-size: contain;
+        width: 26px;
+        background-repeat: no-repeat;
+        height: 26px;
+        pointer-events: none;
+    }
+        
+    input[type="date"],
+    input[type="time"] {
+        position: relative;
+        background-color: white;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    /*payments*/
+        
+    .carding {
+        border-radius: 20px !important;
+        width: 220px;
+        display: inline-block;
+    }
+        
+    .payments {
+        .pdff {
+            background-color: $main-color;
+            border: 1px solid #000;
+            border-radius: 10px;
+            text-align: center;
+            color: #000;
+        }
+        a {
+            text-decoration: unset;
+        }
+    }
+        
+    .scrolling {
+        height: 600px;
+        overflow-y: scroll;
+    }
+        
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: transparent;
+        background-image: url(../img/Arrow.png);
+        background-repeat: no-repeat;
+        background-position-x: 4%;
+        background-position-y: 13px;
+        border: 1px solid #dfdfdf;
+        margin-right: 0rem;
+        margin-bottom: 2px;
+        padding: 0rem;
+        padding-right: 0rem;
+        margin-top: 7px;
+    }
+        
+    .scrolling::-webkit-scrollbar-thumb {
+        border-top-left-radius: 50px !important;
+        border-bottom-left-radius: 50px !important;
+    }
+        
+    .scrolling::-webkit-scrollbar-track {
+        border-top-left-radius: 50px !important;
+        border-bottom-left-radius: 50px !important;
+    }
+        
+    .ctrl-standards {
+        color: #000;
+        border-color: #F9F9F9;
+        font-size: 21px;
+        background-color: #F9F9F9;
+        box-shadow: 0px 0px 5px 2px #eaeaea;
+        // height: 65px;
+        width: 250px;
+        &:hover {
+            background-color: $main-color;
+            color: #fff;
+            border-color: $main-color;
+        }
+    }
+        
+    // option:focus  {
+    //     background-color: #ddd !important;
+    //     border-color: #ddd !important;
+    //     border-radius: 15px !important;
+    //     box-shadow: unset !important;
+    // }
+    .ctrls-standard.fx-bubbleUp {
+        color: $main-color;
+        border-color: #222;
+        font-size: 19px;
+    }
+        
+    .ctrls-standard.fx-bubbleUp::after {
+        top: auto;
+        border-radius: 0;
+        background: #222;
+    }
+        
+    .ctrls-standard.fx-bubbleUp.is-reversed::after {
+        height: 300%;
+    }
+        
+    .ctrls-standard.fx-bubbleUp.is-reversed:hover {
+        color: #222;
+    }
+        
+    .ctrls-standard.fx-bubbleUp.is-reversed:hover::after {
+        height: 0;
+    }
+        
+    [class*="ctrls-"] {
+        padding: 15px 35px;
+        border-radius: 10px;
+        border: 2px solid #fff;
+        font-weight: bold;
+    }
+        
+    [class*="ctrls-"][class*="fx-"]:hover,
+    [class*="ctrls-"][class*="fx-"].active {
+        color: #fff;
+    }
+        
+    [class*="ctrls-"][class*="fx-"].is-reversed {
+        color: #fff;
+    }
+    /*تعديلات*/
+        
+    @media (max-width: 400px) {
+        .ctrl-standard,
+        .ctrls-standard {
+            min-width: 100%!important;
+        }
+    }
+        
+    @media (max-width: 600px) {
+        .file_input .form-control {
+            width: 100% !important;
+        }
+        .file_input .nav-item {
+            margin-right: .5rem !important;
+            margin-bottom: 1rem !important;
+        }
+        .carding {
+            margin-right: .5rem !important;
+        }
+    }
+    /*.lawyer_forms*/
+        
+    .lawyer_form {
+        th,
+        td {
+            width: 40%;
+            text-align: center;
+        }
+    }
+        
+    select {
+        height: 50px !important;
+    }
+        
+    .custom-switch .custom-control-label::after {
+        background-color: #fff !important;
+    }
+        
+    .custom-switch .custom-control-label::after {
+        width: 17px!important;
+        height: 17px!important;
+    }
+        
+    .custom-switch .custom-control-label::before {
+        width: 38px !important;
+        pointer-events: all !important;
+        height: 22px !important;
+        border-radius: 20px !important;
+        border: none !important;
+    }
+        
+    a {
+        text-decoration: unset !important;
+        color: #000!important;
+    }
+        
+    .havering {
+        &:hover {
+            background-color: $main-color;
+        }
+    }
+    /*report*/
+        
+    @media (max-width: 769px) {
+        .reports{
+            text-align: center;
+        }
+    }
+
+    /* تعديلات */
+    .dataTables_wrapper thead tr{
+        text-align:  center;
+    }
+    .dataTables_wrapper tbody tr{
+        text-align:  center;
+    }
+    .editing{
+        .form-group{
+            width: 150px;
+            select{
+                height: 45px  !important;
+                background-position-x: 90% !important;
+                background-position-y: 9px !important;
+                padding-right: 3rem;
+
+            }
+        }
+
+    }
+    .table th, .table td {
+       
+        vertical-align: middle !important;
+        @media (max-width: 600px) {
+           font-size: 10px;
+        }
+    }
+    .table thead th {
+        @media (max-width: 600px) {
+            font-size: 10px;
+         }
+    }
+    table.dataTable>tbody>tr.child span.dtr-title ,li{
+        @media (max-width: 600px) {
+            font-size: 10px !important;
+         }
+         
+    }
+
+    .nav-pills .nav-treeview .nav-link.active {
+        color: #CBA860 !important;
+        background-color: transparent;
+    }
+    .ctrl-standard.fx-bubbleUp {
+        border-color: transparent !important;
+        &:hover{
+            border-color: $main-color !important; 
+        }
+    }
+    .ctrls-standard.fx-bubbleUp {
+        
+        border-color: transparent  !important;
+       &:hover{
+           border-color: $second-color  !important;
+       }
+    }
+    .notsee{
+        font-weight: bold;
+    }
+    .notification h5{
+        @media (max-width: 600px) {
+            font-size: 12px !important;
+            
+         }
+
+    }

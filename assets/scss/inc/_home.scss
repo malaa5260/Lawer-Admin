@@ -1,0 +1,463 @@
+                    header {
+                        .carousel-caption {
+                            top: 250px;
+                            p {
+                                max-width: 900px;
+                                margin: auto;
+                                font-size: 23px !important;
+                            }
+                        }
+                        .carousel-control-prev,
+                        .carousel-control-next {
+                            top: 50%;
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 10px;
+                            background-color: rgba(0, 0, 0, .6);
+                        }
+                        .carousel-control-prev {
+                            left: 10%;
+                        }
+                        .carousel-control-next {
+                            right: 10%;
+                        }
+                        .carousel-item {
+                            background-image: url(../img/bg-slider.png);
+                            background-size: cover;
+                            &>img {
+                                min-height: calc(100vh - 100px);
+                                object-fit: cover;
+                            }
+                            @media (max-width: 900px) {
+                                background-size: 500%;
+                            }
+                        }
+                        .nv {
+                            background-color: #191919;
+                            width: calc(calc(100% - 1090px) / 2);
+                            height: 100%;
+                        }
+                    }
+                                        
+                    .with-role {
+                        position: relative;
+                        &:after {
+                            content: "";
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                            width: 40px;
+                            top: 40px;
+                            height: 12px;
+                            background-color: $main-color;
+                            position: absolute;
+                        }
+                    }
+                                        
+                    .mt-200 {
+                        margin-top: 45%;
+                        @media (max-width: 991px) {
+                            margin-top: 75%;
+                        }
+                    }
+                                        
+                    .main-color {
+                        color: $main-color !important;
+                    }
+                                        
+                    .sec-color {
+                        color: $second-color;
+                    }
+                                        
+                    .main-bk {
+                        background-color: $main-color;
+                    }
+                                        
+                    .before-about {
+                        width: 300px;
+                        height: 300px;
+                        position: absolute;
+                        z-index: -1;
+                        left: 0;
+                        top: 0;
+                    }
+                                        
+                    .contact {
+                        .form-control-lg {
+                            min-height: 60px;
+                            margin-bottom: 30px;
+                        }
+                         ::-webkit-input-placeholder {
+                            /* Chrome/Opera/Safari */
+                            color: $main-color;
+                            font-size: 18px !important;
+                        }
+                         ::-moz-placeholder {
+                            /* Firefox 19+ */
+                            color: $main-color;
+                            font-size: 18px !important;
+                        }
+                         :-ms-input-placeholder {
+                            /* IE 10+ */
+                            color: $main-color;
+                            font-size: 18px !important;
+                        }
+                         :-moz-placeholder {
+                            /* Firefox 18- */
+                            color: $main-color;
+                            font-size: 18px !important;
+                        }
+                        select {
+                            color: $main-color;
+                        }
+                        option:not(:checked) {
+                            color: black;
+                        }
+                    }
+                                        
+                    footer {
+                        background-color: #000;
+                        a:focus,
+                        a:hover {
+                            text-decoration: none;
+                        }
+                        .fa-stack {
+                            &:hover {
+                                color: $second-color !important;
+                            }
+                        }
+                    }
+                                        
+                    .hov-cl {
+                        border-radius: 20px;
+                        padding: 10px 20px;
+                        padding-top: 0;
+                        transition: all .7s ease-in-out;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: $main-color;
+                            h2,
+                            h3 {
+                                color: $second-color;
+                            }
+                            p {
+                                color: #fff;
+                            }
+                            img {
+                                filter: brightness(0) invert(.9);
+                            }
+                        }
+                    }
+                                        
+                    .gold {
+                        background-color: #EDEDF7;
+                        .ctrl-standard.fx-bubbleUp {
+                            border-color: $second-color;
+                        }
+                        .ctrl-standard.fx-bubbleUp::after {
+                            background: $second-color;
+                        }
+                        .ctrl-standard.fx-bubbleUp.is-reversed:hover {
+                            color: $second-color;
+                        }
+                    }
+                                        
+                    .owl-theme .owl-dots .owl-dot span {
+                        width: 22px;
+                        height: 22px;
+                        background: transparent;
+                        border: 2px solid #fff;
+                    }
+                                        
+                    .owl-dots {
+                        bottom: -50px;
+                    }
+                                        
+                    .owl-theme .owl-dots .owl-dot.active span,
+                    .owl-theme .owl-dots .owl-dot:hover span {
+                        background-color: #fff;
+                    }
+                                        
+                    .vector {
+                        position: absolute;
+                        bottom: 10px;
+                        left: -151px;
+                        z-index: 99;
+                        width: 37%;
+                    }
+                                        
+                    .owl-theme .owl-nav {
+                        font-size: 60px;
+                        margin-top: 0px;
+                    }
+                                        
+                    .owl-carousel .owl-nav button.owl-prev,
+                    .owl-carousel .owl-nav button.owl-next,
+                    .owl-carousel button.owl-dot,
+                    .owl-theme .owl-nav [class*='owl-']:hover {
+                        background-color: transparent;
+                        color: $main-color;
+                        outline: none;
+                        // font-size: 32px;
+                    }
+                                        
+                    .number {
+                        direction: ltr;
+                    }
+                                        
+                    nav {
+                        .dropdown-item {
+                            padding: 0.75rem 1.5rem;
+                        }
+                    }
+                                        
+                    .close {
+                        position: absolute;
+                        top: -20px;
+                        left: -26px;
+                        opacity: 1;
+                        border: none;
+                        box-shadow: none;
+                        font-size: 19px;
+                    }
+                                        
+                    .nav-tabs#myTab {
+                        border: none;
+                        background-color: #fff;
+                        // padding: 0 10%;
+                        // border-radius: 40px;
+                    }
+                                        
+                    .nav-tabs#myTab .nav-link {
+                        font-size: 28px;
+                        padding: 34px 15px;
+                    }
+                                        
+                    .nav-tabs .nav-link {
+                        color: $main-color;
+                        border: none;
+                        border-radius: 10px !important;
+                        margin: 5px;
+                    }
+                                        
+                    .nav-tabs .nav-link:hover,
+                    .nav-tabs .nav-link:focus {
+                        border: none;
+                        border-radius: 10px !important;
+                    }
+                                        
+                    .nav-tabs .nav-link.active,
+                    .nav-tabs .nav-item.show .nav-link {
+                        border: none;
+                        color: #fff;
+                        background-color: $main-color;
+                        img {
+                            filter: brightness(0) invert(1);
+                        }
+                    }
+                                        
+                    .nav-tabs .nav-item {
+                        margin-bottom: 0;
+                        // border-right: 1px solid $main-color;
+                        border: none;
+                        @media (max-width: 991px) {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        img {
+                            @media (max-width: 991px) {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                        &:hover {
+                            .nav-link {
+                                color: #fff;
+                                background-color: $main-color;
+                            }
+                            img {
+                                filter: brightness(0) invert(1);
+                            }
+                        }
+                    }
+                                        
+                    .contain-img {
+                        height: 200px;
+                    }
+                                        
+                    .trans-hov {
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        right: 10px;
+                        width: calc(100% - 20px);
+                        height: calc(100% - 20px);
+                        background-color: rgba($main-color, .6);
+                        transition: .5s ease;
+                        font-size: 53px;
+                        padding-top: 13%;
+                        opacity: 0;
+                    }
+                                        
+                    .card-cont:hover .trans-hov {
+                        opacity: 1;
+                        .btn {
+                            background-color: transparent !important;
+                            color: $second-color !important;
+                        }
+                    }
+                                        
+                    .mbd {
+                        img {
+                            filter: grayscale(100%);
+                            &:hover {
+                                filter: none;
+                                cursor: pointer;
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                                        
+                    .bg-darken-1 {
+                        background-color: #1E1E1E;
+                    }
+                                        
+                    footer {
+                        background-color: #191919;
+                        a:hover {
+                            color: $main-color !important;
+                        }
+                    }
+                                        
+                    h1,
+                    .h1 {
+                        font-size: 3rem;
+                    }
+                                        
+                    .round {
+                        border-radius: 10px;
+                    }
+                                        
+                    .services,
+                    .ser {
+                        .lead {
+                            line-height: 2;
+                        }
+                        img {
+                            width: 50px !important;
+                        }
+                        .border {
+                            transition: all .7s ease-in-out;
+                            &:hover {
+                                -webkit-box-shadow: 0px 10px 23px 0px rgba(217, 214, 217, 1);
+                                -moz-box-shadow: 0px 10px 23px 0px rgba(217, 214, 217, 1);
+                                box-shadow: 0px 10px 23px 0px rgba(217, 214, 217, 1);
+                                .btn {
+                                    border: 1px solid $main-color;
+                                }
+                            }
+                        }
+                    }
+                                        
+                    .with-bk {
+                        background-image: url('../img/pic-parallax.png');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        .transparent-over {
+                            background-color: rgba($color: #000000, $alpha: .6);
+                        }
+                    }
+                                        
+                    .clients {
+                        .owl-carousel .owl-item img {
+                            height: 140px;
+                            object-fit: contain;
+                        }
+                    }
+                                        
+                    .brands {
+                        .bg-white {
+                            img {
+                                height: 200px;
+                                object-fit: contain;
+                            }
+                            &:hover {
+                                -webkit-box-shadow: 0px 0px 17px 6px #f4f4f4;
+                                -moz-box-shadow: 0px 0px 17px 6px #f4f4f4;
+                                box-shadow: 0px 0px 17px 6px #f4f4f4;
+                            }
+                        }
+                        .owl-stage-outer {
+                            padding: 20px 5px;
+                        }
+                    }
+                                        
+                    .bread-crum {
+                        background-color: rgba($color: #000000, $alpha: .3);
+                        left: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        padding-top: 10%;
+                        .breadcrumb {
+                            background-color: transparent;
+                            font-size: 22px;
+                        }
+                        .breadcrumb-item+.breadcrumb-item::before {
+                            content: '|';
+                            color: $main-color;
+                            padding-left: .5rem
+                        }
+                        .breadcrumb-item+.breadcrumb-item {
+                            padding-right: .5rem;
+                        }
+                        @media screen and (max-width:1180px) {
+                            .display-2 {
+                                margin-top: 100px;
+                            }
+                        }
+                    }
+                                        
+                    .all-clients {
+                        img {
+                            height: 120px;
+                            width: 180px;
+                            object-fit: contain;
+                        }
+                    }
+                                        
+                    .dark-section {
+                        background-color: #3D4144;
+                        .dark {
+                            img {
+                                margin-top: -100px;
+                            }
+                            &.owl-carousel .owl-stage-outer {
+                                overflow: unset
+                            }
+                        }
+                        .owl-dots {
+                            bottom: -25px;
+                        }
+                        .owl-nav .owl-prev,
+                        .owl-nav .owl-next {
+                            background-color: transparent !important;
+                            color: $main-color !important;
+                            border-radius: 10px;
+                            width: unset;
+                            height: unset;
+                            position: absolute;
+                            right: unset;
+                            left: 50px;
+                            font-size: 50px !important;
+                            bottom: -150px;
+                        }
+                        .owl-nav .owl-prev {
+                            left: 150px;
+                        }
+                        .owl-dots {
+                            z-index: 99999;
+                        }
+                    }

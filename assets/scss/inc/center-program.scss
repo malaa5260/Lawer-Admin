@@ -1,0 +1,11 @@
+body.rtl {
+    // .mr-auto {
+    //     margin-left: unset!important;
+    // }
+    .fc-icon {
+        transform: rotate(180deg);
+    }
+    .card-title {
+        float: right;
+    }
+}

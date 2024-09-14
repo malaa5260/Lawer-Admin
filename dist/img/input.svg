@@ -1,0 +1,32 @@
+<svg id="input" xmlns="http://www.w3.org/2000/svg" width="27.5" height="27.498" viewBox="0 0 27.5 27.498">
+  <g id="Group_6" data-name="Group 6" transform="translate(0 7.898)">
+    <g id="Group_5" data-name="Group 5">
+      <path id="Path_30" data-name="Path 30" d="M27.412,163.036l-1.668-2.223V149.258a2.2,2.2,0,0,0-2.194-2.194H19.308a.439.439,0,1,0,0,.878h4.242a1.318,1.318,0,0,1,1.317,1.316v11.263H2.194a.439.439,0,0,0-.351.176l-1.755,2.34A.439.439,0,0,0,0,163.3v1.17a2.2,2.2,0,0,0,2.194,2.194H25.306A2.2,2.2,0,0,0,27.5,164.47V163.3A.439.439,0,0,0,27.412,163.036Zm-25-1.638H25.086l1.1,1.463H1.317Zm24.209,3.072a1.318,1.318,0,0,1-1.317,1.316H2.194A1.318,1.318,0,0,1,.878,164.47v-.731H13.311v.731a.439.439,0,0,0,.878,0v-.731H26.622Z" transform="translate(0 -147.064)" fill="#4d4d4d"/>
+    </g>
+  </g>
+  <g id="Group_8" data-name="Group 8" transform="translate(1.755 7.898)">
+    <g id="Group_7" data-name="Group 7">
+      <path id="Path_31" data-name="Path 31" d="M39.117,147.064H34.875a2.2,2.2,0,0,0-2.194,2.194V159.2a.439.439,0,0,0,.878,0v-9.946a1.318,1.318,0,0,1,1.316-1.316h4.242a.439.439,0,1,0,0-.878Z" transform="translate(-32.681 -147.064)" fill="#4d4d4d"/>
+    </g>
+  </g>
+  <g id="Group_10" data-name="Group 10" transform="translate(7.168)">
+    <g id="Group_9" data-name="Group 9">
+      <path id="Path_32" data-name="Path 32" d="M146.578,9.924a.439.439,0,0,0-.405-.271h-1.9V.439A.439.439,0,0,0,143.832,0h-7.606a.439.439,0,0,0-.439.439V9.654h-1.9a.439.439,0,0,0-.31.749l6.143,6.143a.439.439,0,0,0,.621,0l6.143-6.143A.439.439,0,0,0,146.578,9.924Zm-6.549,5.691-5.084-5.084h1.281a.439.439,0,0,0,.439-.439V.878h6.728v9.215a.439.439,0,0,0,.439.439h1.281Z" transform="translate(-133.448 0)" fill="#4d4d4d"/>
+    </g>
+  </g>
+  <g id="Group_12" data-name="Group 12" transform="translate(13.311 4.827)">
+    <g id="Group_11" data-name="Group 11">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="0.439" cy="0.439" r="0.439" fill="#4d4d4d"/>
+    </g>
+  </g>
+  <g id="Group_14" data-name="Group 14" transform="translate(11.263 4.827)">
+    <g id="Group_13" data-name="Group 13">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="0.439" cy="0.439" r="0.439" fill="#4d4d4d"/>
+    </g>
+  </g>
+  <g id="Group_16" data-name="Group 16" transform="translate(15.359 4.827)">
+    <g id="Group_15" data-name="Group 15">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="0.439" cy="0.439" r="0.439" fill="#4d4d4d"/>
+    </g>
+  </g>
+</svg>

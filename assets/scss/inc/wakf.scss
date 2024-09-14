@@ -1,0 +1,125 @@
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #545454;
+    background-color: $main-color;
+}
+
+.main-header .badge {
+    border: 1px solid red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: red;
+    background-color: #f9f9f9;
+    padding-top: 5px;
+}
+
+.gm-style .gm-style-iw-c {
+    background-color: $main-color;
+}
+
+.gm-style-iw-d {
+    overflow: unset !important;
+}
+
+.gm-style .gm-style-iw-t::after {
+    background: linear-gradient(45deg, rgb(202, 167, 96) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+}
+
+@media (min-width: 791px) {
+    .w-lg-25 {
+        width: 250px !important;
+    }
+}
+
+@media(max-width:676px) {
+    h1,
+    .h1 {
+        font-size: 2rem !important;
+    }
+}
+
+.pd {
+    border-radius: 14px;
+}
+
+.custom-switch .custom-control-label::after {
+    width: 17px;
+    height: 17px;
+}
+
+.custom-switch .custom-control-label::before {
+    width: 38px;
+    pointer-events: all;
+    height: 22px;
+    border-radius: 20px;
+    border: none;
+}
+
+.custom-switch.custom-switch-on-success .custom-control-input:checked~.custom-control-label::before {
+    background-color: #5FCD72;
+    border-color: #145523;
+}
+
+.custom-switch.custom-switch-off-danger .custom-control-input~.custom-control-label::before {
+    background-color: #F24646;
+    border-color: #921925;
+}
+
+.custom-switch .custom-control-label::after {
+    background-color: #fff;
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+    background-color: #fff;
+    -webkit-transform: translateX(.75rem);
+    transform: translateX(16px);
+}
+
+.dropdown-menu {
+    margin: 8px 0 0;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 9px 16px -8px rgba(0, 0, 0, 0.175);
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.not.dropdown-menu {
+    min-width: 32rem;
+    @media (max-width: 791px) {
+        min-width: 18rem;
+        margin-left: -5rem;
+    }
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #e7e9eb !important;
+}
+
+.lefting {
+    margin-left: 3rem !important;
+    @media (max-width: 791px) {
+        h5 {
+            font-size: 1rem;
+        }
+    }
+}
+
+.activating {
+    background-color: $main-color;
+    border-radius: 100%;
+    width: 12px;
+    height: 13px;
+}
+
+.notification .text-sm {
+    font-size: 1rem !important;
+    margin-right: 4rem;
+}
+
+.marging {
+    margin-right: 4rem;
+}

@@ -1,0 +1,77 @@
+.content-- {
+    min-height: 100vh;
+    h6 {
+        font-size: .9em;
+    }
+    .side-img {
+        background-image: url(../img/Login-pic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+    .login {
+        .form-control {
+            border-radius: 10px;
+            -webkit-box-shadow: 0px 0px 17px 6px #f4f4f4;
+            box-shadow: 0px 0px 5px 2px #e0e0e0;
+            font-size: 16px;
+            height: 50px !important;
+            color: #bdbdbd;
+            border-color: #dedede;
+        }
+    }
+    .over-login {
+        background-color: rgba($color: #7a7a7a, $alpha: .4);
+    }
+    .is-reversed {
+        width: 70%;
+        @media (max-width: 991px) {
+            width: auto;
+        }
+    }
+}
+
+.light-bk {
+    background-color: #F3F5FB;
+}
+
+.pro-card {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px #eaeaea;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+}
+
+.simi-blake {
+    color: #5A5A5A;
+}
+
+.with-line-height {
+    line-height: 2.2;
+}
+
+.role {
+    height: 2px;
+    background-color: rgb(165, 165, 165)
+}
+
+.usr-form {
+    .form-control {
+        background-color: #F9F9F9;
+        border-radius: 20px;
+        box-shadow: 0px 3px 5px 2px #e2e2e2;
+        height: 60px !important;
+        border: none;
+        color: #919191;
+    }
+    label {
+        font-weight: bold;
+        margin-bottom: 15px;
+        margin-right: 5px;
+        font-size: 22px
+    }
+}
